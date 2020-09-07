@@ -12,6 +12,7 @@ public class GetRequest {
 		Response res  = given().contentType(ContentType.JSON).when().get("http://restapi.demoqa.com/utilities/weather/city");
 		
 		System.out.println("Status code is::" +res.statusCode());
+		System.out.println();
 
 	}
 
